@@ -1,0 +1,131 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+  education: True # set to False if you want education in main section instead of in sidebar
+
+  # Profile information
+  name: Timo Viveen
+  tagline: Applicatieontwikkelaar
+  avatar: profile.png
+
+  # Sidebar links
+  email: timo@timo-viveen.nl
+  phone:
+  website: timo-viveen.nl
+  linkedin: TimoViveen
+  xing:
+  github: Senexis
+  telegram:
+  gitlab:
+  bitbucket:
+  twitter: TimoViveen
+  stack-overflow:
+  codewars:
+  goodreads:
+
+  languages:
+    - idiom: Nederlands
+      level: moedertaal
+
+    - idiom: Engels
+      level: vloeiend
+
+  interests:
+    - item: Roeien
+      link:
+
+    - item: Talen en culturen bestuderen
+      link:
+
+    - item: Complexe puzzels oplossen
+      link:
+
+career-profile:
+  title: Persoonlijk profiel
+  summary: |
+    Hallo! Mijn naam is Timo, een hardwerkende, maar toch flexibele applicatie- en web ontwikkelaar met een oog voor details. Ik zie mezelf als vastberaden en vind opgeven geen optie.
+    Ik hou ervan om in problemen op te gaan en zo hard mogelijk te werken aan volledige oplossingen. Het vinden van de oorzaak van de probleem is altijd een interessante uitdaging.
+    Samenwerking vind ik gezellig en nuttig, vele handen maken ten slotte licht werk.
+
+education:
+  - degree: HBO - Informatica
+    university: Avans Hogeschool te Breda
+    time: 2017 - Heden
+  - degree: MBO-4 - Applicatieontwikkeling
+    university: Da Vinci College te Gorinchem
+    time: 2013 - 2017
+  - degree: VMBO-TL - EC
+    university: Merewade College te Gorinchem
+    time: 2008 - 2013
+
+experiences:
+  title: Werkervaring
+  places:
+    - role: Ontwikkelaar
+      time: Juli 2016 - Heden
+      company: Omega2, Nieuwendijk
+      details: |
+        Taken bestaan uit applicatieontwikkeling in meerdere technologieën zoals WordPress, Laravel, PimCore en .NET.
+    - role: Applicatieontwikkeling
+      time: Maart 2016 - Mei 2016
+      company: EasyPeasy Coding, Valetta
+      details: |
+        Tijdens deze buitenlandse stage in Malta heb ik mobiele applicaties ontwikkeld en interactieve en leerzame spellen gebouwd voor basisscholen met als doel kinderen aan te zetten om logisch te
+        leren denken aan de hand van simpele logicapuzzels.
+    - role: Websiteontwikkeling
+      time: April 2014 - November 2014
+      company: Tri-Global, Sliedrecht
+      details: |
+        Tijdens deze stage heb ik thema's en plug-ins gebouwd in WordPress, integraties geschreven met door het bedrijf geschreven frameworks en websites geoptimaliseerd voor SEO en SEA.
+
+projects:
+  title: Projecten
+  intro: |
+    Ik vind het leuk om te hobbyen aan verschillende projecten in mijn vrije tijd. Hier is een selectie van mijn favoriete projecten. Al mijn projecten zijn te zien op
+    [GitHub](https://github.com/Senexis).
+  assignments:
+    - title: RDO Compendium
+      type: Node.JS
+      link: "https://rdo-compendium.com/"
+      tagline: |
+        Een populaire Discord-bot die functioneerd als een all-in-one zoekmachine voor alles gerelateerd aan Red Dead Redemption II.
+
+    - title: TMS
+      type: HTML5 & CSS
+      tagline: |
+        Een maatwerkapplicatie voor Omega2 om werktijden interactief in te vullen en bij te houden, en daarop rapporten te genereren.
+
+    - title: Social Club Tool
+      type: JavaScript
+      link: "https://github.com/Senexis/Social-Club-Tool"
+      tagline: |
+        Een kleine in de browsersnippet om bepaalde power-user functionaliteit uit te voeren in Social Club.
+
+    - title: AdminiBot
+      type: C# (.NET)
+      link: "https://github.com/Senexis/Adminibot-Classic"
+      tagline: |
+        Eén van mijn eerste projecten. Een Twitch bot ontwikkeld om gemakkelijk de chat te modereren.
+
+skills:
+  title: Vaardigheden
+  toolset:
+    - name: Node.JS
+      level: 90%
+
+    - name: PHP
+      level: 90%
+
+    - name: HTML5 & CSS
+      level: 80%
+
+    - name: C#
+      level: 75%
+
+    - name: Python
+      level: 68%
+
+    - name: Java
+      level: 60%

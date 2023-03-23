@@ -1,0 +1,30 @@
+# Site Settings
+title: Timo Viveen - Curriculum Vitae
+url: "http://timo-viveen.nl"
+baseurl: ""
+description: "Een hardwerkende, maar toch flexibele applicatie- en web ontwikkelaar met een oog voor details."
+
+# Styles
+theme_skin: ceramic
+chrome_mobile_color: "#f5f5f5"
+
+# Tracker
+analytics: UA-110509796-1
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+encoding: "utf-8"
+compress-site: yes
+compress_html:
+  clippings: all
+  # ignore:
+  #   envs: development
+
+# Development Settings
+port: 4000
+host: 127.0.0.1
+safe: false

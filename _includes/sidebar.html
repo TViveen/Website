@@ -1,0 +1,29 @@
+{% assign sidebar = site.data.data.sidebar %}
+<div class="sidebar-wrapper">
+
+  <div class="profile-container">
+
+    {% if sidebar.name %}
+    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="Timo Viveen" width="100" height="100" />
+    {% endif %}
+
+    {% if sidebar.name %}
+    <h1 class="name">{{ sidebar.name }}</h1>
+    {% endif %}
+
+    {% if sidebar.tagline %}
+    <h2 class="tagline">{{ sidebar.tagline }}</h2>
+    {% endif %}
+
+  </div><!--//profile-container-->
+
+  {% include contact.html %}
+
+  {% if sidebar.education %}
+    {% include education.html %}
+  {% endif %}
+
+  {% include language.html %}
+  {% include interests.html %}
+
+</div><!--//sidebar-wrapper-->
